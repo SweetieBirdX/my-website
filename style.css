@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-color: #8bcac2;
+}
+#introducitonHead {
+    margin-left: 7%;
+}
+/* #introduciton {
+    
+} */
+#purposeHead {
+    margin-left: 4%;
+}
+/* #purpose {
+
+} */
+#favouriteHead {
+    margin-left: 2%;
+}
+#linkHead {
+    text-align: center;
+    padding-top: 5%;
+}
+a:hover {
+    color: rgb(240, 70, 70);
+    transition-duration: 750ms;
+}  
+a:visited {
+    color: rgb(3, 0, 151);
+}
+.image {
+    display: flex;
+    grid-template-columns: repeat(3, 3fr); /* 3 sütunlu grid oluşturur */
+    gap: 0%; /* Resimler arasındaki boşluk */
+    margin-left: 17%;
+}
+.image img {
+    width: 35%;
+    height: 35%;
+}
+#x {
+    width: 21%;
+    height: 11%;
+    padding-top: 8%;
+}
+#instagram {
+    width: 41%;
+    height: 41%;
+}
