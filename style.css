@@ -30,8 +30,8 @@ a:visited {
 }
 .image {
     display: flex;
-    grid-template-columns: repeat(3, 3fr); /* 3 sütunlu grid oluşturur */
-    gap: 0%; /* Resimler arasındaki boşluk */
+    grid-template-columns: repeat(3, 3fr);
+    gap: 0%;
     margin-left: 17%;
 }
 .image img {
